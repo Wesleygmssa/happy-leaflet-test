@@ -1,9 +1,11 @@
 import GlobalStyle from "./styles/global";
+import Routes from "./router/index";
 
 function App() {
   return (
+    //pegando todos com caminhos por rotas.
     <>
-      <h1>Test</h1>
+      <Routes />
       <GlobalStyle />
     </>
   );
